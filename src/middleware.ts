@@ -36,5 +36,5 @@ export const middleware = async (request: NextRequest) => {
 };
 
 export const config = {
-  matcher: ["/", "/login", "/protected"],
+  matcher: ["/login", "/api/login/:path*"],
 };
